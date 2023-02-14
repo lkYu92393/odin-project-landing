@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Recipe Design</title>
 </head>
-<body>
+<body >
     <header class="bg-header">
         <div class="width-limiter">
             <div class="flex-container flex-row">
@@ -23,19 +23,19 @@
                 </div>
             </div>
             <div class="hero flex-container flex-row">
-                <div class="flex-container flex-column flex1">
+                <div class="flex-container flex-column flex-align-start">
                     <div class="hero-main">This website is awesome</div>
                     <div class="hero-secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
                     <div class="button">Sign up</div>
                 </div>
-                <div class="flex1 bg-img">
+                <div class="flex-self-stretch bg-img">
                     <img src="" alt="placeholder">
                 </div>
             </div>
         </div>
     </header>
     <section>
-        <div class="width-limiter">
+        <div class="">
             <div class="info-header">Some random information.</div>
             <div class="info-tab flex-container flex-row">
                 <div>
@@ -55,18 +55,29 @@
                     <div>this is some subtext under an illustration or image</div>
                 </div>
             </div>
-            <div>
-                <div>This is an inspiring quote.</div>
+            <div class="bg-quote">
+                <div class="quote-box">
+                    <div>
+                        This is an inspiring quote, from somebody. 
+                        Though it may not be read by anyone. 
+                        It is good to put something here
+                    </div>
+                    <div class="text-right">
+                        - Thor
+                    </div>
+                </div>
             </div>
-            <div>
-                <div>Call to action</div>
-                <div>Sign up</div>
+            <div class="width-limiter call-action">
+                <div class="flex-container">
+                    <div>Call to action</div>
+                    <div>Sign up</div>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="bg-footer">
+    <footer class="bg-header">
         <div class="width-limiter">
-            <div>Copyright with MIT License</div>
+            <div class="copy-text">Copyright with MIT License</div>
         </div>
     </footer>
 </body>
