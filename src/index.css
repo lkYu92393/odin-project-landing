@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .width-limiter {
@@ -141,7 +141,7 @@
 .call-action > div {
     background-color:#3882f6;
     border-radius: 5px;
-    padding: 2rem 4rem;
+    padding: 2rem 5rem;
 }
 .call-action > div > div:nth-of-type(2) {
     border: 1px solid white;
